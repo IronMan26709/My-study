@@ -1,0 +1,11 @@
+.psevdo:before{
+	content: attr(href );
+	display: inline-block;
+}
+.psevdo{
+	text-decoration: none;
+}
+.psevdo:after{
+	content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjio3hZ8kkwKn7FBB6IJh7ha65UgVkZDiYTg9GbSjygMJhYbK-ZA);
+	display: inline-block; 
+}
