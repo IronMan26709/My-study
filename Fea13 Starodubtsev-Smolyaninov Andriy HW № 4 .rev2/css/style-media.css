@@ -1,0 +1,67 @@
+@media screen(min-width:1200px){}
+/*@media (min-width: 1024px;)and(max-width: 1199px;)*/
+@media (min-width:1024px) and (max-width:1199px){
+	.content .googs .items{
+		width:29%;
+	}
+	.content .googs{
+		justify-content: space-around;
+	}
+}
+@media(min-width:775px) and (max-width:1023px){
+	.content .googs .items{
+		width:28%;
+	}
+	.wrap .cont aside{
+		display: none;
+	}
+	.content .googs .items:hover{	
+		transform: scale(1.025);
+	}
+	.content .googs{
+		flex-direction: row;
+		align-items: center;		
+	}	
+	nav ul{
+		display: none;
+	}
+	nav .burger-menu{
+		display: block;
+	}
+}
+@media(min-width:620px) and (max-width: 774px){
+	.content .googs{
+		justify-content: space-around;
+		flex-direction: row;
+		align-items: center;		
+	}
+	.content .googs .items{
+		width:45%;
+		margin: 30px 0;
+	}
+	.content .slogn h1{
+		margin-top:20px; 
+	}
+	.wrap .cont aside{
+		display: none;
+	}
+}
+@media(min-width:340px) and (max-width: 619px){
+	.content .googs .items{
+		width:90%;
+	}
+	.wrap .cont aside{
+		display: none;
+	}
+	.googs .items button{
+		display:block;
+		width:100px;
+		height:40px;
+		border-radius: 10px;
+		background:#685174;
+		color:white;
+	}
+	.content{
+		justify-content: space-around;
+	}
+}

@@ -1,0 +1,65 @@
+section h1{
+	color: black;
+}
+section li{
+	font-size: 10px;
+}
+section ul {
+	list-style: none;
+}
+section li:first-child a{
+	color:green;
+}
+section li:nth-child(even){
+	font-size: 16px;
+}
+section li:nth-child(3n){
+	background: yellow;
+	display: block
+}
+section li a{
+	text-underline-position: none;
+}
+section li a:hover{
+	font-size: 26px;
+	color: red;
+}
+section li:before{
+	content:'-';
+	display:inline; 	
+}
+
+
+section .flex-container{
+	width:500px;
+	height: 500px;
+	display: flex;
+	margin-left: 50px;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+section .flex-container .flex-item{
+	border:solid 3px black;
+	width: 150px;
+	height: 150px;
+	display:block;	
+}
+section .flex-container .flex-item:hover{
+	border:solid 3px blue;
+	background: yellow;	
+}
+section .flex-container .flex-item .round{
+	display:block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background:black;
+	margin: 0 auto;
+	margin-top: 40%;
+}
+section .flex-container .flex-item:hover .round{
+	border:solid 3px blue;
+	background: blue;
+}

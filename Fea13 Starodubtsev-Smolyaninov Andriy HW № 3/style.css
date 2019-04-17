@@ -1,0 +1,200 @@
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+body{
+	transition:none;
+}
+article{
+	padding:15px 10px 10px;
+}
+.firstArt{
+	width: 850px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 16px;
+	margin:-5px 0 14px 0;
+	font-weight: normal;
+}
+p{
+	font-size: 16px;
+}
+span{
+	color: green;
+	font-weight: bold;
+}
+.letter, sub{
+	color: blue;
+}
+.firstIMG{
+	position: relative;
+	top:-20px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+.firstIMG:hover{
+	transform: translate(50px, 30px) scale(1.5);
+}
+.secondIMG{
+	float: right;
+	margin-right: 15px;
+}
+.secondIMG:hover{
+	transform: translateX(-50px) scale(1.5);
+}
+.secondPart{
+	display: block;
+	width: 600px;
+	height: 600px;
+	background:#0d5825;
+	margin: 50px auto 0;
+}
+.secondPart blockquote{
+	display: inline-block;
+	color: white;
+	text-align:center;
+	margin:30px 75px; 
+	font-size: 25px;
+}
+.secondPart blockquote q{
+	margin-bottom: 10px;
+	display: block;
+}
+.secondPart blockquote cite{
+	margin:0 auto;
+	font-size: 20px;
+}
+.secondPart figure{
+	display: block;
+	position: relative;
+	margin-top: 100px;
+	width: 100%;
+	height: 300px;
+}
+.secondPart figure img{
+	width: 150px;
+}
+.card1, .card2, .card3{
+	transition: 0.5s 0.1s;
+} 
+.secondPart figure .card1{
+	display: inline-block;
+	width: 150px;
+	position: absolute;
+	left:150px;
+	transform: rotateZ(-25deg);
+}
+.secondPart figure .card1:hover{
+	transform: translateY(-30px)  rotateZ(-25deg);
+	/*transition: 0.5s 0.1s;*/
+}
+.secondPart figure .card2:hover{
+	transform: translateY(-30px)  rotateZ(-7deg);
+	/*transition: 0.5s 0.1s;*/
+}
+.secondPart figure .card3:hover{
+	transform: translateY(-30px)  rotateZ(7deg);
+	/*transition: 0.5s 0.1s;*/
+}
+.secondPart figure .card2{
+	display: inline-block;
+	width: 150px;
+	position: absolute;
+	top: 4px;
+	left: 200px;
+	transform: rotateZ(-7deg);
+}
+.secondPart figure .card3{
+	display: inline-block;
+	width: 150px;
+	position: absolute;
+	left:250px;
+	top:17px;
+	transform: rotateZ(7deg);
+}
+.ThirdArt{
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+}
+.ThirdArt h1{
+	text-align: center;
+	margin-top:  50px;
+	font-size: 20px; 
+}
+.ThirdArt .wrap{
+	display: block;
+	position: relative;
+	width: 100%;
+	height:500px;
+}
+.ThirdArt .wrap div{
+	display: block;
+	position: absolute;
+	width:100px;
+	height:100px;	
+}
+.ThirdArt .wrap .inner{
+	background:#4bbac6;
+	border:1px solid black;
+	width: 250px;
+	height: 150px;
+	border-radius: 3px;
+	display: none;
+}
+.ThirdArt .wrap .first_item{
+	background:url(./images/card01.png);
+	left:450px;
+	z-index: 1;
+}
+.ThirdArt .wrap .first_item:hover .inner{
+	position: absolute;
+	display: block;
+}
+.ThirdArt .wrap .first_item:hover{
+	z-index: 10;
+}
+.ThirdArt .wrap .second_item{
+	background:yellow;
+	left:500px;
+	top:50px;
+	z-index: 2;
+}
+.ThirdArt .wrap .second_item:hover .inner{
+	position: absolute;
+	display: block;
+}
+.ThirdArt .wrap .second_item:hover{
+	z-index: 10;
+}
+.ThirdArt .wrap .third_item{
+	background:green;
+	left:550px;
+	top:100px;
+	z-index: 3;
+}
+.ThirdArt .wrap .third_item:hover .inner{
+	position: absolute;
+	display: block;
+}
+.ThirdArt .wrap .third_item:hover{
+	z-index: 10;
+}
+.ThirdArt .wrap .fourth_item{
+	background:orange;
+	left:600px;
+	top:150px;
+	z-index: 4;
+}
+.ThirdArt .wrap .fourth_item:hover .inner{
+	position: absolute;
+	display: block;
+}
+.ThirdArt .wrap .fourth_item:hover{
+	z-index: 10;
+}
+.ThirdArt .wrap p{
+	font-size: 16px;
+}
